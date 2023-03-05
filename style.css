@@ -1,4 +1,3 @@
-
 @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
     margin: 0;
@@ -71,14 +70,14 @@ header .icons span:last-child{
     cursor: pointer;
     margin-top: 30px;
 }
-.days li.inactive{
+.calendar .days li.inactive {
     color:#aaa;
 }
-.days li.active{
-    color:#ff8000;
+.calendar .days li.active {
+    color:#ffffff;
     font-weight: 1000;
 }
-.calendar .days li ::before{
+.calendar .days li::before {
     position: absolute;
     content : "";
     height: 40px;
@@ -93,5 +92,5 @@ header .icons span:last-child{
     background: #f2f2f2;
 }
 .days li.active::before{
-    background: #9b59b6;
+    background: #ffe600;
 }
